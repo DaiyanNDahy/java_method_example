@@ -8,6 +8,7 @@ public class MyClass {
     public void writeText(String text1, String text2){
         
         System.out.print(text1);
+
         System.out.print(text2);
     }
 
@@ -19,6 +20,7 @@ public class MyClass {
     public String concat(String value1, String value2) throws IllegalArgumentException{
 
         if(value1==null){
+
             throw new IllegalArgumentException("Value is null");
         }
 
@@ -30,6 +32,7 @@ public class MyClass {
         return value1+value2;
     }
     public static void main(String[] args) throws Exception {
+        
         System.out.println("Hello, World!");
     }
 }
